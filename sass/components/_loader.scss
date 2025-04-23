@@ -1,0 +1,22 @@
+#loader {
+    position: fixed;
+    inset: 0;
+    background-color: $white;
+    z-index: $z-loader;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .loader__styled p {
+      font-size: 24px;
+      letter-spacing: 5px;
+      color: $primary;
+      animation: pulse 2s infinite;
+    }
+  
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+  }
+  

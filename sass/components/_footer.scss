@@ -1,0 +1,37 @@
+footer {
+    background-color: $footer;
+    color: $white;
+    padding: 32px $container-padding;
+  
+    nav {
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        img {
+          height: 30px;
+          margin-bottom: 16px;
+        }
+  
+        li {
+          margin-bottom: 12px;
+          font-size: 14px;
+  
+          i {
+            margin-right: 8px;
+          }
+  
+          a {
+            color: $white;
+            text-decoration: none;
+            transition: color 0.3s;
+  
+            &:hover {
+              color: $secondary;
+            }
+          }
+        }
+      }
+    }
+  }
+  

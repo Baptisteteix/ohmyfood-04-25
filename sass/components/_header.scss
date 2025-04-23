@@ -1,0 +1,55 @@
+header {
+    text-align: center;
+  
+    .logo {
+      padding: $container-padding;
+      
+      img {
+        height: 30px;
+      }
+  
+      .location {
+        margin-top: 8px;
+        color: $greystrong;
+        font-size: 14px;
+  
+        i {
+          margin-right: 4px;
+        }
+      }
+    }
+  
+    .reservation {
+      background-color: $primarylight;
+      padding: 32px $container-padding;
+  
+      h2 {
+        font-size: 22px;
+        color: $black;
+        margin-bottom: 12px;
+      }
+  
+      p {
+        font-size: 16px;
+        color: $greystrong;
+        margin-bottom: 20px;
+      }
+  
+      button {
+        background: linear-gradient(to right, $primary, $secondary);
+        color: $white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+  
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+  
+  
